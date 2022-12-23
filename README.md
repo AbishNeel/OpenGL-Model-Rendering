@@ -1,6 +1,6 @@
 # OpenGL Model Rendering
 
-A program written in OpenGL and C++ that can import and render 3D models saved in the GLTF format. Makes use of concepts such as Vertex Buffer Objects, Index Buffer Objects, fragment shaders and vertex shaders to render models robustly. I have provided a few models that can be rendered and the program will prompt you asking which model you want to load in.
+A program written in OpenGL and C++ that can import and render 3D models saved in the GLTF format. Makes use of concepts such as Vertex Buffer Objects, Index Buffer Objects, fragment shaders and vertex shaders to render models robustly. I have provided a few models that can be rendered and the program will prompt you asking for the model you want to load in. You can render more gltf models but make sure you save them in a manner that conforms to how the other models are saved, and also in the models folder under content. This program only works in x64 configuration at this time.
 
 
 SCREENSHOTS
