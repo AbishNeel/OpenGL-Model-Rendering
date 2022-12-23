@@ -1,0 +1,17 @@
+﻿  Main.cpp
+Camera.obj : error LNK2019: unresolved external symbol _glfwSetInputMode referenced in function "public: void __thiscall Camera::ProcessInput(struct GLFWwindow *)" (?ProcessInput@Camera@@QAEXPAUGLFWwindow@@@Z)
+Camera.obj : error LNK2019: unresolved external symbol _glfwGetKey referenced in function "public: void __thiscall Camera::ProcessInput(struct GLFWwindow *)" (?ProcessInput@Camera@@QAEXPAUGLFWwindow@@@Z)
+Camera.obj : error LNK2019: unresolved external symbol _glfwGetMouseButton referenced in function "public: void __thiscall Camera::ProcessInput(struct GLFWwindow *)" (?ProcessInput@Camera@@QAEXPAUGLFWwindow@@@Z)
+Camera.obj : error LNK2019: unresolved external symbol _glfwGetCursorPos referenced in function "public: void __thiscall Camera::ProcessInput(struct GLFWwindow *)" (?ProcessInput@Camera@@QAEXPAUGLFWwindow@@@Z)
+Camera.obj : error LNK2019: unresolved external symbol _glfwSetCursorPos referenced in function "public: void __thiscall Camera::ProcessInput(struct GLFWwindow *)" (?ProcessInput@Camera@@QAEXPAUGLFWwindow@@@Z)
+Main.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwDestroyWindow referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function _main
+C:\Dev\Students\CH19\Abish.Neelakanta\OpenGL Model Rendering\Libraries\lib\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+LINK : error LNK1218: warning treated as error; no output file generated

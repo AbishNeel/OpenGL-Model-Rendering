@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Dev\Students\CH19\Abish.Neelakanta\OpenGL Model Rendering\Libraries\glfw-3.3.8\build\CMakeFiles\dd95a855f02dd42367d73e333558a50a\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Dev\Students\CH19\Abish.Neelakanta\OpenGL Model Rendering\Libraries\glfw-3.3.8\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Dev\Students\CH19\Abish.Neelakanta\OpenGL Model Rendering\Libraries\glfw-3.3.8\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Dev\Students\CH19\Abish.Neelakanta\OpenGL Model Rendering\Libraries\glfw-3.3.8\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Dev\Students\CH19\Abish.Neelakanta\OpenGL Model Rendering\Libraries\glfw-3.3.8\build\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0245F844-7D1F-3297-9EE5-1D6721C75D4E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0985CAAD-309C-3535-8BDA-0A078CF93531}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

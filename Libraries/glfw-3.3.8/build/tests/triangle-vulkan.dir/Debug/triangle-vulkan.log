@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Dev/Students/CH19/Abish.Neelakanta/OpenGL Model Rendering/Libraries/glfw-3.3.8/tests/CMakeLists.txt
+  triangle-vulkan.c
+  glad_vulkan.c
+  Generating Code...
+  triangle-vulkan.vcxproj -> C:\Dev\Students\CH19\Abish.Neelakanta\OpenGL Model Rendering\Libraries\glfw-3.3.8\build\tests\Debug\triangle-vulkan.exe

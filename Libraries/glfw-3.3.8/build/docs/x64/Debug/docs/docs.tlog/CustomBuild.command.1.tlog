@@ -1,0 +1,24 @@
+^C:\DEV\STUDENTS\CH19\ABISH.NEELAKANTA\OPENGL MODEL RENDERING\LIBRARIES\GLFW-3.3.8\BUILD\CMAKEFILES\FED78B71D02A647898C1FD611481856E\DOCS.RULE
+setlocal
+cd "C:\Dev\Students\CH19\Abish.Neelakanta\OpenGL Model Rendering\Libraries\glfw-3.3.8\build\docs"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\doxygen\bin\doxygen.exe"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\DEV\STUDENTS\CH19\ABISH.NEELAKANTA\OPENGL MODEL RENDERING\LIBRARIES\GLFW-3.3.8\DOCS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Dev/Students/CH19/Abish.Neelakanta/OpenGL Model Rendering/Libraries/glfw-3.3.8" "-BC:/Dev/Students/CH19/Abish.Neelakanta/OpenGL Model Rendering/Libraries/glfw-3.3.8/build" --check-stamp-file "C:/Dev/Students/CH19/Abish.Neelakanta/OpenGL Model Rendering/Libraries/glfw-3.3.8/build/docs/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

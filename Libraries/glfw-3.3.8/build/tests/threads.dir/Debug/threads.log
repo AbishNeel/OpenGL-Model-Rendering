@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Dev/Students/CH19/Abish.Neelakanta/OpenGL Model Rendering/Libraries/glfw-3.3.8/tests/CMakeLists.txt
+  threads.c
+  tinycthread.c
+  glad_gl.c
+  Generating Code...
+  threads.vcxproj -> C:\Dev\Students\CH19\Abish.Neelakanta\OpenGL Model Rendering\Libraries\glfw-3.3.8\build\tests\Debug\threads.exe

@@ -1,0 +1,10 @@
+^C:\DEV\STUDENTS\CH19\ABISH.NEELAKANTA\OPENGL MODEL RENDERING\LIBRARIES\GLFW-3.3.8\BUILD\CMAKEFILES\6E62D88B84B5B4A5B8192875B9715127\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Dev/Students/CH19/Abish.Neelakanta/OpenGL Model Rendering/Libraries/glfw-3.3.8" "-BC:/Dev/Students/CH19/Abish.Neelakanta/OpenGL Model Rendering/Libraries/glfw-3.3.8/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Dev/Students/CH19/Abish.Neelakanta/OpenGL Model Rendering/Libraries/glfw-3.3.8/build/GLFW.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,16 @@
+﻿  Main.cpp
+Camera.obj : error LNK2001: unresolved external symbol _glfwGetKey
+Camera.obj : error LNK2001: unresolved external symbol _glfwGetMouseButton
+Camera.obj : error LNK2001: unresolved external symbol _glfwSetInputMode
+Camera.obj : error LNK2001: unresolved external symbol _glfwSetCursorPos
+Camera.obj : error LNK2001: unresolved external symbol _glfwGetCursorPos
+Main.obj : error LNK2001: unresolved external symbol _glfwSwapBuffers
+Main.obj : error LNK2001: unresolved external symbol _glfwTerminate
+Main.obj : error LNK2001: unresolved external symbol _glfwPollEvents
+Main.obj : error LNK2001: unresolved external symbol _glfwInit
+Main.obj : error LNK2001: unresolved external symbol _glfwCreateWindow
+Main.obj : error LNK2001: unresolved external symbol _glfwWindowHint
+Main.obj : error LNK2001: unresolved external symbol _glfwMakeContextCurrent
+Main.obj : error LNK2001: unresolved external symbol _glfwDestroyWindow
+Main.obj : error LNK2001: unresolved external symbol _glfwWindowShouldClose
+C:\Dev\Students\CH19\Abish.Neelakanta\OpenGL Model Rendering\build\bin\OpenGL Model Rendering\Win32\Release\OpenGL Model Rendering.exe : fatal error LNK1120: 14 unresolved externals
